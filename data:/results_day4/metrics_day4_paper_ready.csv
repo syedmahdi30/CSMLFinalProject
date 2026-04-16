@@ -1,0 +1,13 @@
+Ticker,Model,MAE,RMSE
+AAPL,Naive,0.00096,0.00167
+AAPL,RollingMean10,0.00248,0.00331
+AAPL,LinearRegression,0.00123,0.00179
+AAPL,DecisionTree,0.00133,0.0019
+AAPL,RandomForest,0.00108,0.00168
+AAPL,GradientBoosting,0.00116,0.00172
+MSFT,Naive,0.00119,0.00207
+MSFT,RollingMean10,0.00338,0.00433
+MSFT,LinearRegression,0.00131,0.00202
+MSFT,DecisionTree,0.00141,0.0022
+MSFT,RandomForest,0.00122,0.00199
+MSFT,GradientBoosting,0.0014,0.00213

@@ -1,0 +1,7 @@
+Ticker,Model,Params,Val_MAE,Val_RMSE,Test_MAE,Test_RMSE
+AAPL,RandomForest,"{'n_estimators': 200, 'max_depth': 8, 'min_samples_leaf': 15, 'n_jobs': -1, 'random_state': 0}",0.0017681277955446705,0.002683677802703129,0.001076613310129276,0.0016798274326240096
+AAPL,GradientBoosting,"{'n_estimators': 250, 'learning_rate': 0.1, 'max_depth': 2, 'min_samples_leaf': 20, 'random_state': 0}",0.001969115814160993,0.002822046762963149,0.0011644414602619876,0.0017228481671084394
+AAPL,DecisionTree,"{'max_depth': 5, 'min_samples_leaf': 20, 'random_state': 0}",0.0019309830592665908,0.0028416697447101276,0.0013256769404297103,0.0019007620938237162
+MSFT,RandomForest,"{'n_estimators': 250, 'max_depth': None, 'min_samples_leaf': 10, 'n_jobs': -1, 'random_state': 0}",0.0018648615783368747,0.002889856012050949,0.0012193343887237187,0.0019941115206738723
+MSFT,DecisionTree,"{'max_depth': 5, 'min_samples_leaf': 20, 'random_state': 0}",0.0020235096816742138,0.0029608223861576585,0.0014107271756337596,0.0021956046438649894
+MSFT,GradientBoosting,"{'n_estimators': 250, 'learning_rate': 0.1, 'max_depth': 2, 'min_samples_leaf': 20, 'random_state': 0}",0.002456509149204251,0.003357006042233448,0.001398867003245671,0.002126714720731698
