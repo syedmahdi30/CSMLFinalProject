@@ -1,0 +1,8 @@
+Tree-based models and linear model are benchmarked against Naive and RollingMean10 baselines on 2023 test data.
+AAPL: best test RMSE model is Naive (MAE=0.00096, RMSE=0.00167).
+MSFT: best test RMSE model is RandomForest (MAE=0.00122, RMSE=0.00199).
+AAPL: RF is most accurate in 2023Q4 (RMSE=0.00143) and weakest in 2023Q3 (RMSE=0.00189).
+MSFT: RF is most accurate in 2023Q3 (RMSE=0.00160) and weakest in 2023Q2 (RMSE=0.00248).
+AAPL: top RF feature importances -> rv_10 (0.942), rv_10_lag_1 (0.049), log_volume (0.004).
+MSFT: top RF feature importances -> rv_10 (0.944), rv_10_lag_1 (0.048), log_volume (0.004).
+Volatility-based features (rv_10 and rv_10_lag_1) dominate feature importance, while volume-based features are typically weaker.
